@@ -1,5 +1,5 @@
 FROM node:18-alpine
-ARG N8N_VERSION=1.56.1
+ARG N8N_VERSION=1.6.9
 RUN apk add --update graphicsmagick tzdata
 USER root
 RUN apk --update add --virtual build-dependencies python3 build-base && \
